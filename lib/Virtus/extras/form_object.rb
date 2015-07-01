@@ -13,7 +13,7 @@ module Virtus
     module FormObject
       def form_attributes(*args)
         options = args.extract_options!
-                model = options[:model]
+        model = options[:model]
         attributes = args
 
         attributes.each do |attribute_key|

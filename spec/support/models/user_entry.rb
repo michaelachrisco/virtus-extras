@@ -11,7 +11,7 @@ class UserEntry
                   :last_name,
                   :display_name,
                   :model => String
-                  # :writer => :private
+
   form_attributes :is_active,
                   :model => Integer
 
