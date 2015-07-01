@@ -1,11 +1,13 @@
 require 'spec_helper'
 
 describe Virtus::Extras::FormObject do
-  let(:attribute_hash) {{:display_name => 'first last',
-    :first_name => 'first',
-    :last_name => 'last',
-    :is_active => 0,
-    :hidden => 99}}
+  let(:attribute_hash) do
+    { :display_name => 'first last',
+      :first_name => 'first',
+      :last_name => 'last',
+      :is_active => 0,
+      :hidden => 99 }
+  end
   let(:virtus_model) { UserEntry.new(attribute_hash) }
 
   describe 'attributes' do
