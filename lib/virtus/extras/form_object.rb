@@ -2,6 +2,7 @@
 require 'active_support'
 
 # +FormObject+ module.
+# Special thanks to: josephbridgwaterrowe For the initial version
 #
 # Depends on Virtus for model attributes.
 # Assigns attributes to parent model.
